@@ -48,7 +48,7 @@ export default defineComponent({
 
   setup (props, context) {
     const testDiv = ref<HTMLElement>()
-    const textArray = text.split('\r\n')
+    const textArray = text.split('\n')
 
     const handlePageLeft = (e: KeyboardEvent) => {
       console.log('page left')

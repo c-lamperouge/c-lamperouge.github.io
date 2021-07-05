@@ -117,7 +117,7 @@ export default defineComponent({
 body {
   margin: 0;
 
-  font-family: Consolas, "Microsoft Yahei", monospace, sans-serif;
+  font-family: Hack, "Source Han Sans CN", monospace, sans-serif;
 
   // 移动端适配
   -webkit-tap-highlight-color: transparent;
